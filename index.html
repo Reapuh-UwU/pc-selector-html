@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        #Lynette{
+            float: left;
+            width: min(25vw);
+            height: min(100vh);
+        }
+        #Lynette img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform .1s
+        }
+        #Zephie{
+            float: left;
+            width: min(25vw);
+            height: min(100vh);
+        }
+        #Zephie img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform .1s
+        }
+        img:hover{
+            transform: scale(1.05);
+        }
+            
+        body{
+            overflow: hidden;
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="Lynette">
+        <img src="Lynette_preview.jpg" alt="Lynette_preview.jpg">
+    </div>
+    <div id="Zephie">
+        <img src="zephie.png" alt="Lynette_preview.jpg">
+    </div>
+</body>
+</html>
